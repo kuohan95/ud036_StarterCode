@@ -107,7 +107,7 @@ main_page_content = '''
       <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
           <div class="navbar-header">
-            <a class="navbar-brand" href="#"><i class="fa fa-film" aria-hidden="true"></i> Fresh Tomatoes Movie Trailers</a>
+            <a class="navbar-brand" href="#">Cool Movie Trailers</a>
           </div>
         </div>
       </div>
@@ -147,7 +147,7 @@ def create_movie_tiles_content(movies):
             movie_title=movie.title,
             poster_image_url=movie.poster_image_url,
             trailer_youtube_id=trailer_youtube_id,
-            movie_storyline= movie.storyline
+            movie_storyline =movie.storyline
         )
     return content
 
